@@ -20,6 +20,10 @@
     display: flex;
     align-items: center;
 }
+
+
+      
+
 .navbar{
     display: flex;    
          width: auto;
@@ -29,8 +33,9 @@
  a.nav-link.active{
     color: #ae3329;
 }
+
 .nav-link{    
-    color: #f8f9fa;        
+    color: #f8f9fa;       
     margin: 20px;/*отступы в меню между собой*/
     font-size: 1.4rem; 
 }
@@ -49,22 +54,22 @@ color: #1d2029;
 .i:hover{
     color: #ae3329;  
 }
+
+
+
+/*----------текст----------*/
 .main-text{    
     display: flex;
     margin-top: 120px;    
     justify-content: space-around;   
 margin-top: 30px;
 }
-/*----------текст----------*/
-
 .header_container{       
     display: flex;         
      flex-direction: column;  
      text-align: center;
       margin-right: 70px;    
-      color: #f8f9fa;  
-     
-         /* line-height: 2;*/
+      color: #f8f9fa;         
  }
  h1{
     font-size: 4rem;
@@ -79,9 +84,10 @@ margin-top: 30px;
  .main-text p{
     color: #f8f9fa;      
     font-family: 'Lora', serif; 
-    font-size: 1.3rem;
-   
+    font-size: 1rem;   
  }
+
+
  /*----------картинка машина----------*/
 .header_bg{
     background: #21252e;  
@@ -95,7 +101,7 @@ margin-top: 30px;
     text-align: center;
     margin-top: 15px ;
     
-    /*box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223.05);*/    
+   
 }
 .arrow-down{
     display: flex;
@@ -108,7 +114,7 @@ margin-top: 30px;
   
 }
 /*-----------------------------
-     страница  postscriptum
+     страница 2   postscriptum
 -----------------------*/
 
 .table{
@@ -221,6 +227,7 @@ justify-content: space-around;
 .footer{
     width: 90%;
     display: flex;  
+   
 }
 .footer_menu{
     width: 50%;
@@ -258,17 +265,17 @@ justify-content: space-around;
 .legal{
     display: flex;
     justify-content: space-around;
-   
+   margin-bottom: 20px;
 }
 
 .copy p{
     color: #f8f9fa;
     margin-left: 30px;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 .social_links{
     display: flex;
-    font-size: 1.4rem;    
+    font-size: 1rem;    
 }
 .social_links  a{
     color: #f8f9fa;  
@@ -278,11 +285,11 @@ justify-content: space-around;
 /*---------------------
 foto
 ---------------------*/
-.foto_galery{
-    
+.foto_galery{    
     width: 400px;
     height: 400px;  
     display: flex;
+   
 }
 .img_1{
     display: flex;
@@ -311,7 +318,6 @@ action
     font-size:  2rem;
 }
 .acti h2{
-     
      font-weight: 700;
     font-size:  2rem;
 }
@@ -322,8 +328,7 @@ action
 .acti p{
     color: #f8f9fa;  
    text-align: center;
-   line-height: 2;
-  
+  /* line-height: 2;  */
    font-size: 1.5rem;
 }
 .action_wrap{
@@ -339,8 +344,9 @@ action
 .action_wrap p{
     color: #f8f9fa;  
     text-align: center;
-    line-height: 2;
+   /* line-height: 2;*/
     font-weight: 500; 
+    font-size: 1.5rem;
 }
 /*----------------------
 сертификаты
@@ -361,7 +367,7 @@ action
 .partn_text h1{
 font-size: 4rem;
 color: #f8f9fa; 
-line-height: 2;
+line-height: 1.8;
 
 }
 .partner_wrap{
@@ -393,11 +399,11 @@ line-height: 2;
 }
 .vacant_text{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .vacant_text h1{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #f8f9fa; 
 }
 .vacant_text h2{
@@ -405,5 +411,6 @@ line-height: 2;
     text-transform: uppercase;
 }
 .vacant_text p{
-    color: #f8f9fa; 
+    color: #f8f9fa;
+    font-size: 1rem; 
 }
